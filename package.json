@@ -1,0 +1,23 @@
+{
+  "name": "js-tutorial",
+  "version": "1.0.0",
+  "description": "javascript string methods",
+  "main": "./main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build" : "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javscript",
+    "top",
+    "string",
+    "methods"
+  ],
+  "author": "Xasanjon Abdunabiyev",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.8"
+  }
+}
