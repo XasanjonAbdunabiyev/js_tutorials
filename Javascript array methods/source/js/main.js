@@ -91,7 +91,27 @@ const peopleArr = [
             bs: 'transition cutting-edge web services',
         },
     },
-]
+];
+
+let phoneArr = [
+    {
+        name: "home", 
+        phone: +998373838
+    }, 
+    {
+        name: "office", 
+        phone: +998373838
+    }, 
+
+    {
+        name: "mobile", 
+        phone: +993993
+    }
+];
+
+
+
+
 
 // Array.prototype.salomForEach = function (cb) {
 //     for (let i = 0; i < this.length; i++) {
@@ -103,14 +123,24 @@ const peopleArr = [
 //     console.log(item, index, list)
 // })
 
-Array.prototype.salomMap = function (cb) {
-    let newArr = [];
-    for (let i = 0; i < this.length; i++) {
-        newArr.push(cb(this[i], i, this))
-    }
-    return newArr;
-}
+// Array.prototype.salomMap = function (cb) {
+//     let newArr = [];
+//     for (let i = 0; i < this.length; i++) {
+//         newArr.push(cb(this[i], i, this))
+//     }
+//     return newArr;
+// }
 
-peopleArr.map(function (item, index, list) {
-    console.log(item, index, list)
-})
+// peopleArr.map(function (item, index, list) {
+//     console.log(item, index, list)
+// })
+
+
+
+let arr = [1, 2, 33, 44, 55];
+let total = arr.reduce(function (total, element) {
+    return total = total + element
+}, 0);
+
+
+
