@@ -136,11 +136,3 @@ let phoneArr = [
 // })
 
 
-
-let arr = [1, 2, 33, 44, 55];
-let total = arr.reduce(function (total, element) {
-    return total = total + element
-}, 0);
-
-
-

@@ -1,0 +1,20 @@
+{
+  "name": "javascript-array-methods-part-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.10"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
